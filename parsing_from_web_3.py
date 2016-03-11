@@ -43,6 +43,8 @@ Sum: 2482
 
 '''
 
+import urllib2
+from xml.etree import ElementTree
 import requests
 
 url = raw_input("Enter json URL: ")
@@ -60,6 +62,8 @@ print "Sum: {0}".format(sum(counts))
 
 
 '''
+Actual data: http://python-data.dr-chuck.net/comments_218526.json (Sum ends with 8)
+ans: 2608
 '''
 
 
